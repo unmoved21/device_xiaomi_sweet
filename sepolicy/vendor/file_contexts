@@ -43,6 +43,9 @@
 /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-04/c440000.qcom,spmi:qcom,pm6150l@4:vadc@3100/iio:device1(/.*)? u:object_r:vendor_sysfs_iio:s0
 /sys/devices/platform/us_prox.0/iio:device2(/.*)?                    u:object_r:vendor_sysfs_iio:s0
 
+# Haptic
+/sys/devices/platform/soc/a8c000.i2c/i2c-2/2-005a/ulevel             u:object_r:sysfs_vibrator:s0
+
 # Remosaic
 /vendor/bin/remosaic_daemon                                          u:object_r:remosaic_daemon_exec:s0
 
