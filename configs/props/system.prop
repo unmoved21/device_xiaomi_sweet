@@ -28,6 +28,10 @@ persist.mm.enable.prefetch=true
 # Radio
 ril.subscription.types=RUIM
 
+# Render
+debug.cpurend.vsync=false
+
+
 # Recovery
 ro.recovery.ui.margin_height=48
 
