@@ -84,6 +84,9 @@ ODM_MANIFEST_SKUS += sweet
 ODM_MANIFEST_SWEET_FILES := \
     $(DEVICE_PATH)/configs/hidl/manifest-nfc.xml
 
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_sweet
 TARGET_RECOVERY_DEVICE_MODULES := libinit_sweet
