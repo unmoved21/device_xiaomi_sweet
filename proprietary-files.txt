@@ -1,5 +1,12 @@
 # These proprietary files are extracted from Redmi Note 10 Pro (codenamed `sweet`) MIUI V14.0.9.0.TKFMIXM, unless pinned
 
+# Audio FX - OzoAudio
+-system_ext/lib/soundfx/libozoprocessing.so:vendor/lib/soundfx/libozoprocessing.so
+-system_ext/lib/libav_ozodecoder.so:vendor/lib/libav_ozodecoder.so
+-system_ext/lib/libav_ozoencoder.so:vendor/lib/libav_ozoencoder.so
+-system_ext/lib/libozoaudio.so:vendor/lib/libozoaudio.so
+-system_ext/lib/libozowidening.so:vendor/lib/libozowidening.so
+
 # ADSP
 -vendor/bin/adsprpcd
 -vendor/bin/cdsprpcd
