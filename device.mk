@@ -376,6 +376,7 @@ PRODUCT_ENFORCE_RRO_TARGETS += *
 
 # Overlay-RRO
 PRODUCT_PACKAGES += \
+    BluetoothResSweet \
     SweetinproSettingsProvider \
     SweetinproWifiOverlay \
     SweetWifiOverlay
