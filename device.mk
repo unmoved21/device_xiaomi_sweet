@@ -303,6 +303,11 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
+    android.hardware.media.omx@1.0-impl \
+    android.hardware.media.omx@1.0-service \
+    libstagefright_omx.vendor
+
+PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
     libcodec2_vndk.vendor \
     libcodec2_hidl@1.0.vendor \
