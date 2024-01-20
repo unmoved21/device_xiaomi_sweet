@@ -113,4 +113,7 @@
     <string name="refresh_default">Default</string>
     <string translatable="false" name="refresh_standard">60Hz</string>
     <string translatable="false" name="refresh_extreme">120Hz</string>
+
+    <!-- Dolby -->
+    <string name="dolby">Dolby Atmos™</string>
 </resources>
